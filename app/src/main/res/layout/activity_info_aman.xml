@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/rice2"
+    tools:context="com.example.abudayan.measureurea.ActivityInfoAman">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headline"
+        android:textSize="25sp"
+        android:text="আমন ধানের ব্যাপারে কিছু তথ্যঃ"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="20sp"
+        android:text="১। কাদাময় জমিতে গজানো বীজ ধান সরাসরি বপন করা হলে আমন মৌসুমে বীজ বপনের ১৫ দিন পর, আর বীজ বপন না করে যদি চারা রোপন করা হয় তাহলে আমন মৌসুমে  চারা রোপনের ১৫ দিন পর LCC Device ব্যবহার করে ইউরিয়া সার এর পরিমান নির্ণয় করে সার প্রয়োগ করুন।"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/headline"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:text="২। ধানের থোর অবস্থা পর্যন্ত এভাবে ১০ দিন পর পর ইউরিয়া সার এর পরিমান নির্ণয় করে জমিতে সার প্রয়োগ করুন।"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:text="৩। রোপা আমন ধানের ক্ষেত্রে Leaf Color Chart(LCC) এর সংকট মানঃ ৩.৫, বোনা আমন ধানের ক্ষেত্রে সংকট মানঃ ৩। "
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp"
+        />
+</RelativeLayout>

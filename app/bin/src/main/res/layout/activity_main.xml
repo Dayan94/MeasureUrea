@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/rice2"
+    tools:context="com.example.abudayan.measureurea.MainActivity"
+    android:id="@+id/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headline"
+        android:textSize="30sp"
+        android:text="আমন ও বোরো ধান, গম ও ভুট্টা এই ৪টি শস্যের জমিতে ইউরিয়া সারের পরিমাণ নির্ণয়কারী App"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="শস্য বাছাই"
+        android:id="@+id/button1"
+        android:textSize="30sp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/headline"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কিছু জরুরী তথ্য"
+        android:id="@+id/button2"
+        android:textSize="30sp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@android:color/holo_green_light"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="উপকারিতা"
+        android:id="@+id/button3"
+        android:textSize="30sp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="রেফারেন্স"
+        android:id="@+id/button4"
+        android:textSize="30sp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:background="@android:color/holo_green_light"/>
+</RelativeLayout>

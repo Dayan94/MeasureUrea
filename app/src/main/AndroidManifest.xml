@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abudayan.measureurea">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".ActivityCrop" />
+        <activity android:name=".ActivityInfo" />
+        <activity android:name=".ActivityAdvantage" />
+        <activity android:name=".ActivityReference" />
+        <activity android:name=".ActivityCropAmanType" />
+        <activity android:name=".ActivityCropBoroType" />
+        <activity android:name=".ActivityCropGhomIrrigationTime" />
+        <activity android:name=".ActivityInfoAman" />
+        <activity android:name=".ActivityInfoBoro" />
+        <activity android:name=".ActivityInfoGhom" />
+        <activity android:name=".ActivityInfoVutta" />
+        <activity android:name=".ActivityCropGhomType" />
+        <activity android:name=".ActivityLeafColor" />
+        <activity android:name=".ActivityUnitSelection" />
+        <activity android:name=".ActivityLandSizeBigha" />
+        <activity android:name=".ActivityLandSizeKatha" />
+        <activity android:name=".ActivityLandSizeAcre" />
+        <activity android:name=".ActivityLandSizeBighaKatha" />
+        <activity android:name=".ActivityLandSizeShotangsho" />
+        <activity android:name=".ActivityLandSizeAcreShotangsho" />
+        <activity android:name=".ActivityUreaAmount" />
+    </application>
+
+</manifest>

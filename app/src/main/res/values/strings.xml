@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ইউরিয়া পরিমাপক</string>
+    <string name="headline">আমন ও বোরো ধান, গম ও ভুট্টা এই ৪টি শস্যের জমিতে ইউরিয়া সারের পরিমাণ নির্ণয়কারী App </string>
+    <string name="button1">শস্য বাছাই</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/rice2"
+    tools:context=".ActivityCropGhomIrrigationTime">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headline"
+        android:textSize="30sp"
+        android:text="১ম জলসেচন নাকি ২য় জলসেচনের সময় গমের জমিতে ইউরিয়া সার দিতে চাচ্ছেন তা বাছাই করুন"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="প্রথম জলসেচন"
+        android:id="@+id/btnFirstIrrigation"
+        android:textSize="30sp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/headline"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_light"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="দ্বিতীয় জলসেচন"
+        android:id="@+id/btnSecondIrrigation"
+        android:textSize="30sp"
+        android:layout_below="@+id/btnFirstIrrigation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@android:color/holo_green_light"/>
+</RelativeLayout>
